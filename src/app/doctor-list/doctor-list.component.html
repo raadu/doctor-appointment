@@ -1,0 +1,5 @@
+<h3>Doctors List</h3>
+<h2>{{errorMessage}}</h2>
+<ul *ngFor="let doc of doctors; let id = index">
+    <li>{{id}}.{{doc.name}}-{{doc.org}}-{{doc.visitDurationInMin}}</li>
+</ul>
