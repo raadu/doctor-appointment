@@ -1,12 +1,12 @@
 [
   {
-    "name": "Dr.JohnDoe",
+    "name": "Dr. John Doe",
     "org": "KingsLondonHospital",
     "availibility": { "sun": "10:00AM-06:00PM", "wed": "06:00PM-09:00PM" },
     "visitDurationInMin": 15
   },
   {
-    "name": "Dr.MaryEllis",
+    "name": "Dr. Mary Ellis",
     "org": "ABCHospital",
     "availibility": {
       "sun": "10:00AM-06:00PM",

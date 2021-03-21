@@ -1,5 +1,11 @@
 <h3>Doctors List</h3>
-<h2>{{errorMessage}}</h2>
-<ul *ngFor="let doc of doctors; let id = index">
-    <li>{{id}}.{{doc.name}}-{{doc.org}}-{{doc.visitDurationInMin}}</li>
+<div>{{errorMessage}}</div>
+
+<ul class="items">
+    <li *ngFor="let doc of doctors; let docID = index">
+        <span class="badge">
+            {{docID+1}}
+        </span>
+        {{doc.name}}
+    </li>
 </ul>
